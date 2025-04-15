@@ -3,7 +3,7 @@ import { Canvas } from "@react-three/fiber";
 import { OrbitControls, useGLTF } from "@react-three/drei";
 
 export default function RobotModel() {
-  const { scene } = useGLTF("src/assets/flying_robot_07___07.glb"); // Ensure path is correct
+  const { scene } = useGLTF("/public/flying_robot_07___07.glb"); // Ensure path is correct
 
   return (
     <Canvas style={{ height: "300px",width:"200px" }}>
